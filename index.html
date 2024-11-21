@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ian Benedict Murillo - Personal Website</title>
+      <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+
+
+    <header class="hero-section">
+      <nav class="navbar">
+        <div class="logo">Ian Benedict Murillo</div>
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+      <div class="hero-section">
+        <div class="hero-text">
+          <h1>Hello, I'm Ian Benedict Murillo</h1>
+          <p class="subtitle">Aspiring Web Developer & Designer</p>
+        </div>
+      </div>      
+    </header>
+
+
+
+    <main>
+      <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I'm Ian Benedict Murillo, a third-year college student specializing in Information Systems. With strong communication skills and a creative mindset, 
+          I strive to bring innovative solutions to technology challenges while showcasing my talent in various projects.</p>
+      </section>
+
+      <section id="about" class="section">
+        <h2>Academics</h2>
+        <div class="school-images">
+            <div class="school">
+                <img src="Schoolimg/mponce.jpg" alt="Mariano Ponce Elementary School">
+                <p>Mariano Ponce Elementary School</p>
+            </div>
+            <div class="school">
+                <img src="Schoolimg/espslogo.png" alt="Espiritu Santo Parochial School">
+                <p>Espiritu Santo Parochial School</p>
+            </div>
+            <div class="school">
+                <img src="Schoolimg/sols.jpg" alt="School of Our Lady of La Salette Inc.">
+                <p>School of Our Lady of La Salette Inc.</p>
+            </div>
+            <div class="school">
+                <img src="Schoolimg/tup.png" alt="Technological University of the Philippines">
+                <p>Technological University of the Philippines</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+      <h2 class="skills-header">Skills</h2>
+      <p class="skills-subheader">Here are my technical skills:</p>
+    
+      <div class="skill">
+        <label for="c">C</label>
+        <p class="skill-description">Intermediate proficiency in C programming, with a focus on system-level development and performance optimization.</p>
+      </div>
+    
+      <div class="skill">
+        <label for="cpp">C++</label>
+        <p class="skill-description">Solid experience in C++ programming, with expertise in object-oriented design and performance tuning.</p>
+      </div>
+    
+      <div class="skill">
+        <label for="java">Java</label>
+        <p class="skill-description">Proficient in Java development, specializing in backend services and multi-threading applications.</p>
+      </div>
+    
+      <div class="skill">
+        <label for="mysql">MySQL</label>
+        <p class="skill-description">Good knowledge of MySQL for database management and optimization of queries for high-performance applications.</p>
+      </div>
+    
+      <div class="skill">
+        <label for="html">HTML</label>
+        <p class="skill-description">Expert in HTML5, ensuring accessibility and clean, semantic code for front-end web development.</p>
+      </div>
+    
+      <div class="skill">
+        <label for="css">CSS</label>
+        <p class="skill-description">Proficient in CSS for creating responsive, well-structured, and visually appealing layouts.</p>
+      </div>
+    </section>
+    
+    
+    
+ 
+
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="project-gallery">
+
+<!-- Typing Skill Enhancer Program -->
+<div class="project-card">
+  <div class="project-content">
+    <h3>Typing Skill Enhancer</h3>
+    <p>
+      A program that serves as a typing tutor, allowing users to create accounts, log in, and track their typing performance. Users can save and load their data (name, typing speed, accuracy, student number, and password).
+    </p>
+    <p><strong>Technologies:</strong> C Language, File Handling</p>
+    <p>
+      <strong>Project File:</strong> 
+      <a href="https://github.com/IanMurillo2304/Typing-Tutor-Project" target="_blank" style="color: #3B4422; text-decoration: none;">
+        View Project
+      </a>
+    </p>
+  </div>
+  <div class="project-image">
+    <a href="https://github.com/IanMurillo2304/Typing-Tutor-Project" target="_blank">
+      <img src="Projectsimg/typing.png" alt="Typing Skill Enhancer" />
+    </a>
+  </div>
+</div>
+
+
+<!-- Minesweeper -->
+<div class="project-card">
+  <div class="project-content">
+    <h3>Minesweeper</h3>
+    <p>
+      The Minesweeper project in C is a classic puzzle game that challenges players to clear a grid of hidden mines without detonating any, using logic and deduction.
+    </p>
+    <p><strong>Technologies:</strong> C Language</p>
+    <p>
+      <strong>Project File:</strong> 
+      <a href="https://github.com/IanMurillo2304/Minesweeper-Project" target="_blank" style="color: #3B4422; text-decoration: none;">
+        View Project
+      </a>
+    </p>
+  </div>
+  <div class="project-image">
+    <a href="https://github.com/IanMurillo2304/Minesweeper-Project" target="_blank">
+      <img src="Projectsimg/mines.png" alt="Minesweeper" />
+    </a>
+  </div>
+</div>
+
+
+<!-- Basic ATM System -->
+<div class="project-card">
+  <div class="project-content">
+    <h3>Basic ATM System</h3>
+    <p>
+      A console-based ATM system enabling users to manage their bank accounts. Features include account enrollment, balance inquiries, withdrawals, deposits, fund transfers, and PIN code changes.
+    </p>
+    <p><strong>Technologies:</strong> C Language</p>
+    <p>
+      <strong>Project File:</strong> 
+      <a href="https://github.com/IanMurillo2304/ATM-Simulator" target="_blank" style="color: #3B4422; text-decoration: none;">
+        View Project
+      </a>
+    </p>
+  </div>
+  <div class="project-image">
+    <a href="https://github.com/IanMurillo2304/ATM-Simulator" target="_blank">
+      <img src="Projectsimg/atm.png" alt="Basic ATM System" />
+    </a>
+  </div>
+</div>
+
+</div>
+
+</section>
+
+
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+  <div class="experience-item">
+    <h3 class="experience-title">2024 - Website Development for WebDev Subject</h3>
+    <p class="experience-description">Developed a fully responsive website as part of the Web Development subject, focusing on front-end technologies like HTML, CSS, and JavaScript.</p>
+  </div>
+  <div class="experience-item">
+    <h3 class="experience-title">2024 - System Development for Enterfil Industrial Products</h3>
+    <p class="experience-description">Contributed to the development of a system for Enterfil Industrial Products, using back-end technologies such as PHP and MySQL for data management.</p>
+  </div>
+</section>
+
+
+
+
+      <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Email: ian.murillo@tup.edu.ph</p>
+        <div class="socials">
+          <img src="Socialslogo/linkedinlogo.png" alt="LinkedIn" class="social-icon" onclick="location.href='https://www.linkedin.com/in/ian-murillo-177077308/'" />
+          <img src="Socialslogo/fblogo.png" alt="Facebook" class="social-icon" onclick="location.href='https://www.facebook.com/ianbenedict.murillo'" />
+          <img src="Socialslogo/iglogo.png" alt="Instagram" class="social-icon" onclick="location.href='https://www.instagram.com/itsianmurillo/" />
+          <img src="Socialslogo/tiktoklogo.webp" alt="Tiktok" class="social-icon" onclick="location.href='https://www.tiktok.com/@malandian_i2?is_from_webapp=1&sender_device=pc'" />
+
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Ian Benedict Murillo. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
